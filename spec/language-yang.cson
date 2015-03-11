@@ -1,0 +1,13 @@
+describe 'YANG grammar', ->
+  grammar = nul
+
+  beforeEach ->
+    waitsForPromise ->
+      atom.packages.activatePackage('language-yang')
+
+    runs ->
+      grammar = atom.grammars.grammarForScopeName('source.yang')
+
+  it 'parses the grammar', ->
+    expect(grammar).toBeTruthy()
+    expect(grammar.scopeName).toBe 'source.yang'

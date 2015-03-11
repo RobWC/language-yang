@@ -1,0 +1,22 @@
+{
+  "name": "language-yang",
+  "description": "YANG Data Modeling Language support in Atom",
+  "contributors": [
+    "Rob Cameron <rwcameron@gmail.com>"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://atom.github.io/language-yangTBD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robwc/language-yang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robwc/language-yang/issues"
+  }
+}
+
